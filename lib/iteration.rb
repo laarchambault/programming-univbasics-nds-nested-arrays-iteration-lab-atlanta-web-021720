@@ -12,6 +12,7 @@ def join_ingredients(src)
       pizza_arr << `I love #{src[out_index][0]} and #{src[out_index][1]} on my pizza`
     out_index += 1
   end
+  pizza_arr
 end
 
 def find_greater_pair(src)
