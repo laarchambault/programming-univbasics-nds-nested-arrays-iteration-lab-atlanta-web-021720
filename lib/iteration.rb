@@ -9,7 +9,9 @@ def join_ingredients(src)
   out_index = 0
   pizza_arr = []
   while out_index < src.count do
-    pizza_arr.push(`I love #{src[out_index][0]} and #{src[out_index][1]} on my pizza`)
+    first_ingred = src[out_index][0]
+    sec_ingred = src[out_index][1]
+    pizza_arr.push(`I love #{first_ingred} and #{sec_ingred} on my pizza`)
     out_index += 1
   end
   pizza_arr
