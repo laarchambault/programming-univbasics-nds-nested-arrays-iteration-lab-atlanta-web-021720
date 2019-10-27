@@ -11,7 +11,7 @@ def join_ingredients(src)
   while out_index < src.count do
     first_ingred = src[out_index][0]
     sec_ingred = src[out_index][1]
-    pizza_arr.push("I love " + first_ingred + " and " + sec_ingred + " pizza")
+    pizza_arr.push("I love " + first_ingred + " and " + sec_ingred + " on my pizza")
     out_index += 1
   end
   pizza_arr
